@@ -1,8 +1,8 @@
-const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
-  router: {
-    base: '/userstech/'
-  }
-} : {}
+//const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+//  router: {
+//    base: '/userstech/'
+//  }
+//} : {}
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -26,7 +26,9 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-  routerBase,
+  router: {
+    base: '/userstech/'
+  },
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
   ],
