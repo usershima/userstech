@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/news", (function(a){return {data:[{contents:[{id:"xz76fljwt5l",createdAt:a,updatedAt:a,publishedAt:"2022\u002F7\u002F19",revisedAt:a,title:"APIデモ",content:"MicroCMSのAPIを叩いてデータを取得しています。"}]}],fetch:{},mutations:void 0}}("2022-08-19T07:57:38.565Z")));

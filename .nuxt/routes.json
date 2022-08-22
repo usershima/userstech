@@ -1,0 +1,16 @@
+[
+  {
+    "name": "news",
+    "path": "/news",
+    "component": "/var/www/html/WebDesignersPortfolio/pages/news.vue",
+    "chunkName": "pages/news",
+    "_name": "_404a4e5c"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/var/www/html/WebDesignersPortfolio/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_ece883ce"
+  }
+]

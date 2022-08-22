@@ -1,0 +1,23 @@
+{
+  "Canvas": {
+    "description": "Auto imported from components/Canvas.vue"
+  },
+  "NavBar": {
+    "description": "Auto imported from components/NavBar.vue"
+  },
+  "NuxtLogo": {
+    "description": "Auto imported from components/NuxtLogo.vue"
+  },
+  "Sidebar": {
+    "description": "Auto imported from components/Sidebar.vue"
+  },
+  "Slide": {
+    "description": "Auto imported from components/Slide.vue"
+  },
+  "TheFooter": {
+    "description": "Auto imported from components/TheFooter.vue"
+  },
+  "TheHeader": {
+    "description": "Auto imported from components/TheHeader.vue"
+  }
+}
