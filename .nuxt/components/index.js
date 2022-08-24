@@ -1,8 +1,3 @@
-export { default as Canvas } from '../../components/Canvas.vue'
-export { default as NavBar } from '../../components/NavBar.vue'
-export { default as NuxtLogo } from '../../components/NuxtLogo.vue'
-export { default as Sidebar } from '../../components/Sidebar.vue'
-export { default as Slide } from '../../components/Slide.vue'
 export { default as TheFooter } from '../../components/TheFooter.vue'
 export { default as TheHeader } from '../../components/TheHeader.vue'
 

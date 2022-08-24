@@ -15,7 +15,6 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 import nuxt_plugin_plugin_62c21662 from 'nuxt_plugin_plugin_62c21662' // Source: ./components/plugin.js (mode: 'all')
 import nuxt_plugin_plugin_0cce197f from 'nuxt_plugin_plugin_0cce197f' // Source: ./vuetify/plugin.js (mode: 'all')
 import nuxt_plugin_axios_1d669e65 from 'nuxt_plugin_axios_1d669e65' // Source: ./axios.js (mode: 'all')
-import nuxt_plugin_googleanalytics_b06f8ebe from 'nuxt_plugin_googleanalytics_b06f8ebe' // Source: ./google-analytics.js (mode: 'client')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -65,7 +64,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"UsersTech","htmlAttrs":{"lang":"ja"},"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"UsersTechは、有する資源を活用して、お客様のシステム開発の効率化、ソフトウェア品質の向上、そのシステムの利用者の満足度向上を目的とする技術、労働力の提供を致します。"},{"name":"format-detection","content":"telephone=no"}],"script":[{"src":"https:\u002F\u002Fcdnjs.cloudflare.com\u002Fajax\u002Flibs\u002Fanimejs\u002F3.2.1\u002Fanime.min.js"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"stylesheet","type":"text\u002Fcss","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Roboto:100,300,400,500,700,900&display=swap"},{"rel":"stylesheet","type":"text\u002Fcss","href":"https:\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002F@mdi\u002Ffont@latest\u002Fcss\u002Fmaterialdesignicons.min.css"}],"style":[]},
+    head: {"title":"UsersTech","htmlAttrs":{"lang":"ja"},"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"UsersTechは、有する資源を活用して、お客様のシステム開発の効率化、ソフトウェア品質の向上、そのシステムの利用者の満足度向上を目的とする技術、労働力の提供を致します。"},{"name":"format-detection","content":"telephone=no"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"stylesheet","type":"text\u002Fcss","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Roboto:100,300,400,500,700,900&display=swap"},{"rel":"stylesheet","type":"text\u002Fcss","href":"https:\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002F@mdi\u002Ffont@latest\u002Fcss\u002Fmaterialdesignicons.min.css"}],"style":[],"script":[]},
 
     router,
     nuxt: {
@@ -189,10 +188,6 @@ async function createApp(ssrContext, config = {}) {
 
   if (typeof nuxt_plugin_axios_1d669e65 === 'function') {
     await nuxt_plugin_axios_1d669e65(app.context, inject)
-  }
-
-  if (process.client && typeof nuxt_plugin_googleanalytics_b06f8ebe === 'function') {
-    await nuxt_plugin_googleanalytics_b06f8ebe(app.context, inject)
   }
 
   // Lock enablePreview in context
