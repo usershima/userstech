@@ -80,7 +80,7 @@ export default {
       また、JavaScriptを使用したWebサイトのフロントエンドの保守。\
       この他に、独学でWEBサイト・デスクトップアプリともにフロントエンドとバックエンドを設計・実装、\
       WordPressなどのCMSを使用してブログを運営していたことがあります。\
-      この経験から、フロントエンドとバックエンドの技術的なコミュニケーションが取りやすいのと、SEOを意識した設計が強みです。',
+      この経験から、フロントエンドとバックエンドの技術的なコミュニケーションが取りやすいのと、WEBにおけるSEOを意識した設計が強みです。',
     about: {
       createdServices: [
         {
@@ -94,8 +94,8 @@ export default {
         { name: 'Vue.js', detail: '個人開発経験あり' },
         { name: 'TypeScript', detail: '個人開発経験あり' },
         { name: 'JavaScript', detail: '実務経験あり（1年未満）' },
-        { name: 'CSS', detail: '個人開発経験あり' },
-        { name: 'HTML', detail: '個人開発経験あり' },
+        { name: 'CSS', detail: '実務経験あり（1年未満）' },
+        { name: 'HTML', detail: '実務経験あり（1年未満）' },
       ],
       backendSkills: [
         { name: 'Laravel', detail: '個人開発経験あり' },
